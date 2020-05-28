@@ -1,0 +1,161 @@
+body {
+    color:#333;
+    font-family: veldana, sans-serif;
+    margin: 0; 
+}
+
+header {
+    background-color: #efefef;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.container {
+/*    background-color: pink;*/
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    text-align: center;
+/*    background-color: skyblue;*/
+}
+
+.icon img {
+    border-radius: 20px;
+/*    border-radius: 50%;*/
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+}
+
+.info {
+/*    background-color: tomato;*/
+    margin-left: 30px;
+    width: 500px;
+}
+
+.info h2 {
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+}
+
+.info ul {
+    margin: 0;
+    padding: auto;
+/*    list-style-type: none;*/
+}
+
+.info ul li {
+    font-size: 16px;
+}
+
+.main {
+/*
+    margin-left: 9px;
+    margin-right: 9px;
+*/
+    font-size: 19px;
+    text-align: center;
+    background: linear-gradient(#efefef, black);
+}
+
+.battle h2 {
+    margin-top: 0;
+}
+
+.raid img {
+    border-width: thick;
+    border-style: ridge;
+    border-color: white;
+    margin-bottom: 10px;
+}
+
+.list h2 {
+    margin: 0;
+    text-align: center
+}
+
+.contents {
+/*    background-color: aquamarine;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.contents h3 {
+    margin: 0;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.contents ul{
+    margin: 0;
+    margin-left: 30px;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.bahamut {
+/*    background-color: oldlace;*/
+    width: 300px;
+}
+
+.alex {
+/*    background-color: beige;*/
+    margin-left: 40px;
+        width: 300px;
+}
+
+.omega {
+/*    background-color: chartreuse;*/
+    margin-left: 40px;    
+    width: 300px;
+}
+
+.raid {
+    padding-bottom: 50px;
+}
+
+.raid img {
+    margin: 5px;
+    border-style: ridge;
+    box-shadow: 5px 5px 3px;
+}
+
+.foot {
+    background-color:  #efefef;
+}
+
+footer p {
+/*    margin-left: 8px;*/
+    text-align: center;
+}
+
+.housyu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.housyu img {
+    margin: 5px;
+    border-style: ridge;
+    box-shadow: 5px 5px 3px;
+}
+
+.miryoku {
+    color: white;
+}
+
+.miryokup {
+    color: white;
+}
